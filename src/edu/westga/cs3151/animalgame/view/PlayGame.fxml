@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="351.0" xmlns="http://javafx.com/javafx/15.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="edu.westga.cs3151.animalgame.view.PlayGameCodeBehind">
+	<children>
+		<Label layoutX="162.0" layoutY="98.0" text="Ask a question" />
+		<Button fx:id="yesButton" layoutX="79.0" layoutY="200.0"
+			mnemonicParsing="false" onAction="#handleYesButton" text="Yes" />
+		<Button fx:id="noButton" layoutX="190.0" layoutY="200.0"
+			mnemonicParsing="false" onAction="#handleNoButton" text="No" />
+	</children>
+</AnchorPane>
